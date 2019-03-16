@@ -1,0 +1,32 @@
+{
+  "name": "vue-ts-node-koa-csr",
+  "version": "1.0.0",
+  "description": "vue-ts-node-koa-csr",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/27032377/vue-ts-node-koa-csr.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/27032377/vue-ts-node-koa-csr/issues"
+  },
+  "homepage": "https://github.com/27032377/vue-ts-node-koa-csr#readme",
+  "dependencies": {
+    "koa": "^2.7.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-ejs": "^4.2.0",
+    "koa-json": "^2.0.2",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
