@@ -24,4 +24,6 @@
 
 - vuex-class 改造vuex
 
-- vuex-class 改造vuex
+- ts-loader 让webpack识别.ts .tsx文件
+
+- tslint-loader/tslint 约束.tx .tsx代码格式
