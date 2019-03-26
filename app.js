@@ -3,13 +3,15 @@ const KoaJson = require('koa-json');
 const KoaRouter = require('koa-router');
 const KoaParser = require('koa-bodyparser');
 const KoaStatic = require('koa-static');
-const render = require('koa-ejs');
 const path = require('path');
 const fs = require('fs');
+const History = require('./src/middleware/koa2-connect-history-api-fallback')
 
 const app = new Koa();
 
 const router = new KoaRouter();
+
+app.use(History());
 
 const staticPath = './web/dist';
 app.use(KoaStatic(path.join(__dirname, staticPath)));

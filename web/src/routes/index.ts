@@ -16,6 +16,14 @@ const routes = [
         }
     },
     {
+        path: '/Home',
+        component: Home,
+        name: 'Home',
+        meta: {
+            title: 'home'
+        }
+    },
+    {
         path: '/Todo',
         component: Todo,
         name: 'Todo',
@@ -28,6 +36,7 @@ const routes = [
 const router = new Router(
     {
         mode: 'history',
+        base: '/',
         routes
     }
 )

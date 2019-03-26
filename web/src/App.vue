@@ -11,15 +11,9 @@ import HelloWorld from './components/HelloWorld.vue'
 @Component({
   components: {
     HelloWorld
-  },
-  methods: {
-    goto () {
-      this.$router.push('/todo')
-    }
   }
 })
-export default class App extends Vue{
-}
+export default class App extends Vue {}
 </script>
 
 <style>

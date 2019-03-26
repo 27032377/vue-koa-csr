@@ -27,3 +27,5 @@
 - ts-loader 让webpack识别.ts .tsx文件
 
 - tslint-loader/tslint 约束.tx .tsx代码格式
+
+- connect-history-api-fallback 用于改造单页面路由
